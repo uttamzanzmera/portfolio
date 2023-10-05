@@ -1,0 +1,23 @@
+.nav-link.active{
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  }
+
+.form-control{
+  outline: 0;
+  border-width: 0 0 2px;
+}
+
+.form-control:focus{
+  outline: 0;
+  border-width: 0 0 2px;
+}
+
+.input-group input , .sresult{
+  text-align: center;
+}
+
+.error-main{
+  text-align: center;
+  margin-top: 25%;
+}
