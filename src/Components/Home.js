@@ -8,9 +8,10 @@ function Home() {
   return (
     <>
      <Common 
-      name ='Grow your business with'
+      name ='IT services Agency'
+      strong='Your Ultimate IT Solutions Partner'
       imgsrc={tech}
-      msg="We are the team of talented devleoper making proper ITsolutions"
+      msg="Transforming Possibilities, Delivering Excellence: UZ Infotech - Your IT Solutions Evolution Begins Here."
       btntext="Get Started"
       visit="/experince"
       />

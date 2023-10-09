@@ -11,10 +11,10 @@ function Common(props) {
               <div className="row">
               <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                 <h1>
-                  {props.name}{" "}
-                  <strong className="brand-name">UZ infotech</strong>
+                  {props.name}{" "}<br/>
+                  <strong className="brand-name">{props.strong}</strong>
                 </h1>
-                <h2 className="my-3">
+                <h2 className="desc my-3">
                   {props.msg}
                 </h2>
 
