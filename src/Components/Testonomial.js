@@ -101,7 +101,7 @@ const Testonomial = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-10 mx-auto">
-            <h1 className="text-center mt-5">Our Happy Clients</h1>
+            <h1 className="text-center mt-5">What Our Valuable Clients Say</h1>
             <div className="carousel-container">
               <div className="d-flex flex-column">
                 <div className="carousel-items">

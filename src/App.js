@@ -27,7 +27,7 @@ function App() {
         <Route exact path="/Contact" element={<Contact name="Contact" />} />
         <Route exact path="/Search" element={<Search name="Search" />} />
         <Route path="/User/:fname/:lname" Component={()=> <User/>} />
-        <Route path="*" element={<Error/>} />
+        <Route path="*" element={<Home/>} />
         {/* <Redirect to="/" /> */}
       </Routes>
       <Footer /> 

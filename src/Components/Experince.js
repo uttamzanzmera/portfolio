@@ -17,7 +17,7 @@ function Experince(props) {
               {
                 
                 Sdata.Sdata.map((val,ind) => {
-                  return <Card key={ind} imgsrc={val.imgsrc} title={val.title} />  
+                  return <Card key={ind} imgsrc={val.imgsrc} title={val.title} desc={val.desc} />  
                 })
               }
                    

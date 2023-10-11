@@ -4,7 +4,7 @@ function Footer() {
     const year = new Date().getFullYear();
   return (
     <>
-    <div className="d-flex flex-column h-100">
+    <div className="d-flex flex-column h-100 my-3">
       <footer className="footer mt-auto py-3 bg-light">
         <div className='container' style={{textAlign:"center"}}>
         Copyright © {year}
